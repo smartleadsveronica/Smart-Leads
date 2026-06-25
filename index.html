@@ -3,122 +3,263 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title><h1>Transformăm Vizitatorii în Clienți</h1></title>
+<title>Smart Leads</title>
+
 <style>
-body{margin:0;font-family:Arial,sans-serif;;color:white}background:#0B1120;.card{
-background:#111827;
-border:1px solid rgba(59,130,246,.15);
-transition:all .3s ease;
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
+
+body{
+font-family:Arial,sans-serif;
+background:#0B1120;
+color:white;
+line-height:1.6;
+}
+
+header{
+padding:120px 20px;
+text-align:center;
+background:linear-gradient(135deg,#0B1120,#1E3A8A);
+}
+
+.lang{
+margin-bottom:20px;
+opacity:.8;
+}
+
+h1{
+font-size:64px;
+margin-bottom:20px;
+}
+
+.hero p{
+max-width:800px;
+margin:auto;
+font-size:22px;
+color:#d1d5db;
+}
+
+.btn{
+display:inline-block;
+margin-top:30px;
+padding:16px 32px;
+background:#3B82F6;
+color:white;
+text-decoration:none;
+border-radius:10px;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+transform:translateY(-3px);
+}
+
+section{
+padding:80px 20px;
+max-width:1200px;
+margin:auto;
+}
+
+h2{
+font-size:38px;
+margin-bottom:30px;
+text-align:center;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:#111827;
+padding:30px;
+border-radius:18px;
+transition:.3s;
+}
+
 .card:hover{
 transform:translateY(-8px);
-box-shadow:0 20px 40px rgba(59,130,246,.15);
 }
-header{padding:80px 20px;text-align:center;background:linear-gradient(135deg,#050505,#0b2d12)}
-h1{font-size:56px;margin:0}
-.hero p{max-width:700px;margin:20px auto;font-size:20px}
-section{padding:60px 20px;max-width:1100px;margin:auto}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
-.card{background:#111;padding:20px;border-radius:12px}
-footer{padding:40px;text-align:center;background:#1.btn{display:inline-block;padding:14px 24px;background:#65d60f;color:#000;text-decoration:none;border-radius:8px;font-weight:bold}
-11}
-.lang{font-size:14px;opacity:.8}
-</style>body{
-margin:0;
-font-family:Arial,sans-serif;
-background:linear-gradient(135deg,#0f172a,#111827,#1e293b);
-color:white;
+
+.stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+margin-top:50px;
 }
+
+.stat{
+background:#111827;
+padding:30px;
+border-radius:16px;
+text-align:center;
+}
+
+.stat h3{
+font-size:42px;
+color:#3B82F6;
+}
+
+.contact{
+text-align:center;
+}
+
+.contact p{
+margin:10px 0;
+}
+
+footer{
+padding:40px;
+text-align:center;
+background:#111827;
+margin-top:40px;
+}
+
+</style>
 </head>
+
 <body>
+
 <header class="hero">
-<div class="lang">🇷🇴 Română | 🇬🇧 English | 🇷🇺 Русский</div>
-<img src="logo.png" alt="Smart Leads Logo" style="width:250px; margin-bottom:20px;"><h1><SMART LEADS</h1>
-<p>Performanță. Creștere. Clienți. Generare de lead-uri, marketing digital și automatizări AI pentru afaceri moderne.</p>
-<a class="btn" href="#tel=+37368213313>Sună acum 068213313</a>
-</header>
-<div class="cards" style="margin-top:50px">
-<div class="card">
-<h3>150+</h3>
-<p>Clienți Mulțumiți</p>
+
+<div class="lang">
+🇷🇴 Română | 🇬🇧 English | 🇷🇺 Русский
 </div>
 
-<div class="card">
+<h1>Transformăm Vizitatorii în Clienți</h1>
+
+<p>
+Smart Leads ajută companiile să genereze mai mulți clienți,
+să automatizeze procesele și să își crească vânzările prin
+marketing digital și inteligență artificială.
+</p>
+
+<a href="#contact" class="btn">
+Consultație Gratuită
+</a>
+
+</header>
+
+<section>
+
+<div class="stats">
+
+<div class="stat">
+<h3>150+</h3>
+<p>Clienți Deserviți</p>
+</div>
+
+<div class="stat">
 <h3>5000+</h3>
 <p>Lead-uri Generate</p>
 </div>
 
-<div class="card">
+<div class="stat">
 <h3>95%</h3>
-<p>Rată de Satisfacție</p>
+<p>Clienți Mulțumiți</p>
+</div>
+
+<div class="stat">
+<h3>24/7</h3>
+<p>Suport</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Despre Noi</h2>
+
+<p style="text-align:center;max-width:850px;margin:auto;">
+Suntem o agenție specializată în generarea de lead-uri,
+marketing digital și automatizări AI.
+Ajutăm afacerile să atragă mai mulți clienți și să își
+crească profitul prin strategii moderne și rezultate măsurabile.
+</p>
+
+</section>
+
+<section>
+
+<h2>Serviciile Noastre</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>🎯 Generare Lead-uri</h3>
+<p>Atragem clienți reali interesați de serviciile și produsele tale.</p>
 </div>
 
 <div class="card">
-<h3>24/7</h3>
-<p>Suport și Automatizare</p>
+<h3>📈 Marketing Digital</h3>
+<p>Campanii eficiente pe Google, Facebook și Instagram.</p>
 </div>
+
+<div class="card">
+<h3>🤖 Automatizări AI</h3>
+<p>Reducem timpul de lucru și optimizăm procesele.</p>
 </div>
-<section>
-<h2>Despre Noi</h2>
-<p>Smart Leads ajută companiile să atragă clienți noi prin marketing digital performant, generare de lead-uri și automatizări AI inteligente.</p>
-</section>
 
-<section>
-<h2>Servicii</h2>
-<div class="cards">
-<div class="card"><h3>Lead Generation</h3><p>Atragem clienți calificați.</p></div>
-<div class="card"><h3>Marketing Digital</h3><p>Facebook, Instagram și Google Ads.</p></div>
-<div class="card"><h3>Automatizări AI</h3><p>Reducem munca manuală și creștem eficiența.</p></div>
+<div class="card">
+<h3>💻 Website-uri</h3>
+<p>Creăm site-uri moderne și optimizate pentru conversii.</p>
 </div>
+
+</div>
+
 </section>
 
 <section>
-<h2>English</h2>
-<p>Smart Leads helps businesses grow through lead generation, digital marketing and AI automation.</p>
-</section>
 
-<section>
-<h2>Русский</h2>
-<p>Smart Leads помогает компаниям привлекать клиентов с помощью цифрового маркетинга и AI автоматизации.</p>
-</section>
-
-<section id="contact">
-<h2>Contact</h2>
-<p>📞 068 213 313</p>
-<p>📧 morararuveronica7@gmail.com</p>
-<p>📷 Instagram: @sma.rtleads</p>
-<p>📍 Republica Moldova</p>
-</section>
-<section>
 <h2>Portofoliu</h2>
 
 <div class="cards">
 
 <div class="card">
 <h3>Lead Generation</h3>
-<p>Creștere cu 250% a solicitărilor de ofertă.</p>
-</div>
-
-<div class="card">
-<h3>Marketing Digital</h3>
-<p>Campanii optimizate pentru cost minim per lead.</p>
+<p>Creștere de peste 200% a solicitărilor pentru clienții noștri.</p>
 </div>
 
 <div class="card">
 <h3>Automatizare AI</h3>
-<p>Reducerea timpului de răspuns cu peste 80%.</p>
+<p>Economisirea a zeci de ore lunar prin automatizări inteligente.</p>
+</div>
+
+<div class="card">
+<h3>Marketing Digital</h3>
+<p>Campanii optimizate pentru rezultate și profit maxim.</p>
 </div>
 
 </div>
+
 </section>
+
+<section id="contact" class="contact">
+
+<h2>Contact</h2>
+
+<p>📧 info@smartleads.md</p>
+<p>📞 +373 XX XXX XXX</p>
+<p>📍 Chișinău, Moldova</p>
+
+<a href="mailto:info@smartleads.md" class="btn">
+Trimite un Email
+</a>
+
+</section>
+
 <footer>
-© Smart Leads
+© 2026 Smart Leads. Toate drepturile rezervate.
 </footer>
+
 </body>
 </html>
-body{
-margin:0;
-font-family:Arial,sans-serif;
-background:linear-gradient(135deg,#0f172a,#111827,#1e293b);
-color:white;
-}
